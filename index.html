@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ByteFix Computer Services offers computer repair, troubleshooting, upgrades, and setup services.">
+  <title>ByteFix | Computer Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="ByteFix home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>bytefix<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> YOUR LOCAL TECH SUPPORT</p>
+          <h1>Tech problems?<br><span>We've got a fix.</span></h1>
+          <p class="hero-text">Straightforward computer repair, upgrades, and troubleshooting to help you get back to what matters.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Book a service <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="trust-row">
+            <div class="trust-icon">✓</div>
+            <p><strong>Clear advice, honest pricing</strong><br><span>No confusing tech talk.</span></p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration of a computer repair dashboard">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="device-card">
+            <div class="device-topbar"><span></span><span></span><span></span><p>bytefix / system check</p></div>
+            <div class="device-content">
+              <div class="device-label">SYSTEM STATUS</div>
+              <div class="device-status"><span class="large-check">✓</span><div><strong>Looking good.</strong><small>Diagnostics complete</small></div></div>
+              <div class="progress-label"><span>System health</span><strong>96%</strong></div>
+              <div class="progress-track"><div class="progress-fill"></div></div>
+              <div class="mini-stats"><div><span>CPU</span><strong>32°C</strong></div><div><span>Storage</span><strong>Healthy</strong></div><div><span>Security</span><strong>Protected</strong></div></div>
+            </div>
+          </div>
+          <div class="floating-tag tag-top"><span class="tag-icon">⌁</span><span><strong>Quick diagnosis</strong><small>Find the issue</small></span></div>
+          <div class="floating-tag tag-bottom"><span class="tag-icon tag-icon-blue">↗</span><span><strong>Ready to go</strong><small>Back up and running</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-foot"><span>REPAIR</span><i></i><span>UPGRADES</span><i></i><span>SUPPORT</span><i></i><span>SETUP</span></div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">WHAT WE CAN DO</p><h2>Small fixes. <span>Big relief.</span></h2></div>
+          <p class="section-intro">From a slow laptop to a fresh setup, get practical help without the headache.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon icon-lime">⌘</div>
+            <p class="card-number">01 / DIAGNOSE</p>
+            <h3>Computer troubleshooting</h3>
+            <p>Identify common software issues, error messages, and performance problems.</p>
+            <a href="#contact" class="text-link">Ask about this <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon icon-blue">▤</div>
+            <p class="card-number">02 / IMPROVE</p>
+            <h3>Website fixes</h3>
+            <p>Small HTML and CSS changes, layout adjustments, and mobile-friendly improvements.</p>
+            <a href="#contact" class="text-link">Ask about this <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon icon-purple">↗</div>
+            <p class="card-number">03 / UPGRADE</p>
+            <h3>Setup and upgrades</h3>
+            <p>Help with software setup, basic maintenance, and planning a practical upgrade.</p>
+            <a href="#contact" class="text-link">Ask about this <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-art">
+          <div class="code-window">
+            <div class="code-bar"><span></span><span></span><span></span><small>fixing-things.js</small></div>
+            <div class="code-lines">
+              <p><span class="line-no">01</span> <span class="code-purple">const</span> problem = <span class="code-green">"slow laptop"</span>;</p>
+              <p><span class="line-no">02</span> <span class="code-purple">const</span> plan = diagnose(problem);</p>
+              <p><span class="line-no">03</span> <span class="code-purple">if</span> (plan.isClear) {</p>
+              <p><span class="line-no">04</span> &nbsp;&nbsp;fix(plan);</p>
+              <p><span class="line-no">05</span> &nbsp;&nbsp;return <span class="code-green">"back to work"</span>;</p>
+              <p><span class="line-no">06</span> }</p>
+            </div>
+            <div class="code-result"><span>●</span> Ready to solve the next problem</div>
+          </div>
+          <div class="about-sticker"><strong>Less stress.</strong><br><span>More uptime.</span></div>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">A LITTLE ABOUT BYTEFIX</p>
+          <h2>Good tech support should feel <span>simple.</span></h2>
+          <p>ByteFix is a sample local tech service built around one idea: technology should help you, not slow you down.</p>
+          <p>We explain the issue in plain language, discuss the options, and agree on the work before getting started.</p>
+          <ul class="check-list">
+            <li><span>✓</span> Clear explanations</li>
+            <li><span>✓</span> Practical solutions</li>
+            <li><span>✓</span> No surprise charges</li>
+          </ul>
+          <a class="button button-dark" href="#pricing">See sample pricing <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SAMPLE PRICING</p><h2>Know the price <span>up front.</span></h2></div>
+          <p class="section-intro">Example starting prices for common small tasks. Final quotes depend on the issue and scope.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <p class="price-type">QUICK FIX</p><h3>Small website edit</h3>
+            <p class="price"><span>₱</span>150<small> / starting at</small></p>
+            <p class="price-desc">For a small HTML or CSS issue on an existing page.</p>
+            <a href="#contact" class="button button-outline">Ask about a fix</a>
+          </article>
+          <article class="price-card price-featured">
+            <div class="popular-label">POPULAR START</div>
+            <p class="price-type">PAGE IMPROVEMENT</p><h3>Mobile layout fix</h3>
+            <p class="price"><span>₱</span>200<small> / starting at</small></p>
+            <p class="price-desc">For adjusting an existing page to work better on phones.</p>
+            <a href="#contact" class="button button-primary">Discuss your page <span>↗</span></a>
+          </article>
+          <article class="price-card">
+            <p class="price-type">NEW PAGE</p><h3>One-page website</h3>
+            <p class="price"><span>₱</span>500<small> / starting at</small></p>
+            <p class="price-desc">A simple landing page with agreed sections and contact details.</p>
+            <a href="#contact" class="button button-outline">Request a quote</a>
+          </article>
+        </div>
+        <p class="pricing-note">Demo prices only. ByteFix is a fictional portfolio business, not a real service provider.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div class="contact-copy">
+          <p class="eyebrow">LET'S TALK TECH</p>
+          <h2>Tell us what's<br><span>not working.</span></h2>
+          <p>This sample form demonstrates the layout and input fields. It does not contact a real business or submit your information anywhere.</p>
+          <div class="contact-detail"><span class="contact-detail-icon">&lt;/&gt;</span><div><small>PORTFOLIO PROJECT</small><strong>Fictional business demo</strong></div></div>
+          <p class="contact-disclaimer">This is a sample website for a student portfolio, not a real repair shop. The form below does not send or store messages.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="e.g. Alex Santos" required>
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="service">What do you need help with?</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Computer troubleshooting</option>
+            <option>Website fixes</option>
+            <option>Setup and upgrades</option>
+            <option>Other</option>
+          </select>
+          <div id="otherServiceField" hidden>
+            <label for="otherService">Please specify the service</label>
+            <input id="otherService" name="otherService" type="text" placeholder="e.g. Software installation or file recovery">
+          </div>
+          <label for="message">A few details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us a little about the issue..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formNote" aria-live="polite">Demo only. Submissions are not sent or stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>bytefix<span class="brand-dot">.</span></span></a>
+      <p>Sample portfolio website built with HTML, CSS, and JavaScript.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
